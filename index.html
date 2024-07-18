@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        img{
+            opacity: 0;
+        }
+
+        .app canvas{
+            position: fixed;
+            z-index: 0;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full h-screen flex text-white font-['helvetica_now_display'] bg-zinc-900">
+        <div class="canvas w-1/2 h-screen relative">
+            <a class="text-2xl opacity-60 font-base fixed top-10 right-10 flex items-center" href="">
+                Close Menu <i class="ri-close-line"></i>
+            </a>
+            <div class="image w-[25vw] h-[32vw] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <img class="absolute w-full h-full object-cover" src="public/assets/first.jpg" alt="">
+                <img class="absolute w-full h-full object-cover" src="public/assets/second.jpg" alt="">
+                <img class="absolute w-full h-full object-cover" src="public/assets/third.jpg" alt="">
+                <img class="absolute w-full h-full object-cover" src="public/assets/fourth.jpg" alt="">
+            </div>
+        </div>
+        <div class="w-1/2 h-screen flex items-center justify-center">
+            <div class="links flex flex-col gap-10">
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl p-4" href="">
+                    <small class="text-xl tracking-normal">0.1</small>Bello Spettacolo
+                </a>
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl p-4" href="">
+                    <small class="text-xl tracking-normal">0.2</small>Dolce far niente
+                </a>
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl p-4" href="">
+                    <small class="text-xl tracking-normal">0.3</small>Satisticado
+                </a>
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl p-4" href="">
+                    <small class="text-xl tracking-normal">0.4</small>Magnifico
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
