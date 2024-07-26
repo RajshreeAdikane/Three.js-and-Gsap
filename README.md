@@ -1,5 +1,8 @@
 # Three.js and GSAP Project
 
+# Live Demo
+You can view the live demo of the project https://main--threejsglsl.netlify.app/.
+
 ## Overview
 
 This project demonstrates how to integrate Three.js and GSAP (GreenSock Animation Platform) to create interactive web animations. The setup includes Three.js for 3D rendering and GSAP for smooth animations. The project includes a canvas with images that animate on user interaction.
